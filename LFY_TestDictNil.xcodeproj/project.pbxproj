@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		185172301E8953DE00C08E2B /* NSArray+JDNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1851722F1E8953DE00C08E2B /* NSArray+JDNil.m */; };
 		C33ECEC61E836078002A00F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C33ECEC51E836078002A00F7 /* main.m */; };
 		C33ECEC91E836078002A00F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C33ECEC81E836078002A00F7 /* AppDelegate.m */; };
 		C33ECECC1E836078002A00F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C33ECECB1E836078002A00F7 /* ViewController.m */; };
 		C33ECECF1E836078002A00F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33ECECD1E836078002A00F7 /* Main.storyboard */; };
 		C33ECED11E836078002A00F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33ECED01E836078002A00F7 /* Assets.xcassets */; };
 		C33ECED41E836078002A00F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33ECED21E836078002A00F7 /* LaunchScreen.storyboard */; };
+		C35CA5801E88EE4500F26652 /* NSDictionary+ErrorCodeAndErrorText.m in Sources */ = {isa = PBXBuildFile; fileRef = C35CA57F1E88EE4500F26652 /* NSDictionary+ErrorCodeAndErrorText.m */; };
+		C35CA5831E88F62800F26652 /* UIView+BlackView.m in Sources */ = {isa = PBXBuildFile; fileRef = C35CA5821E88F62800F26652 /* UIView+BlackView.m */; };
+		C35CA5861E88FB4300F26652 /* UIViewController+FlyElephant.m in Sources */ = {isa = PBXBuildFile; fileRef = C35CA5851E88FB4300F26652 /* UIViewController+FlyElephant.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1851722E1E8953DE00C08E2B /* NSArray+JDNil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JDNil.h"; sourceTree = "<group>"; };
+		1851722F1E8953DE00C08E2B /* NSArray+JDNil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JDNil.m"; sourceTree = "<group>"; };
 		C33ECEC11E836078002A00F7 /* LFY_TestDictNil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFY_TestDictNil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33ECEC51E836078002A00F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C33ECEC71E836078002A00F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +32,12 @@
 		C33ECED01E836078002A00F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C33ECED31E836078002A00F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C33ECED51E836078002A00F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C35CA57E1E88EE4500F26652 /* NSDictionary+ErrorCodeAndErrorText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ErrorCodeAndErrorText.h"; sourceTree = "<group>"; };
+		C35CA57F1E88EE4500F26652 /* NSDictionary+ErrorCodeAndErrorText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ErrorCodeAndErrorText.m"; sourceTree = "<group>"; };
+		C35CA5811E88F62800F26652 /* UIView+BlackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BlackView.h"; sourceTree = "<group>"; };
+		C35CA5821E88F62800F26652 /* UIView+BlackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BlackView.m"; sourceTree = "<group>"; };
+		C35CA5841E88FB4300F26652 /* UIViewController+FlyElephant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FlyElephant.h"; sourceTree = "<group>"; };
+		C35CA5851E88FB4300F26652 /* UIViewController+FlyElephant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FlyElephant.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,14 @@
 				C33ECEC81E836078002A00F7 /* AppDelegate.m */,
 				C33ECECA1E836078002A00F7 /* ViewController.h */,
 				C33ECECB1E836078002A00F7 /* ViewController.m */,
+				C35CA5811E88F62800F26652 /* UIView+BlackView.h */,
+				C35CA5821E88F62800F26652 /* UIView+BlackView.m */,
+				C35CA57E1E88EE4500F26652 /* NSDictionary+ErrorCodeAndErrorText.h */,
+				C35CA57F1E88EE4500F26652 /* NSDictionary+ErrorCodeAndErrorText.m */,
+				C35CA5841E88FB4300F26652 /* UIViewController+FlyElephant.h */,
+				C35CA5851E88FB4300F26652 /* UIViewController+FlyElephant.m */,
+				1851722E1E8953DE00C08E2B /* NSArray+JDNil.h */,
+				1851722F1E8953DE00C08E2B /* NSArray+JDNil.m */,
 				C33ECECD1E836078002A00F7 /* Main.storyboard */,
 				C33ECED01E836078002A00F7 /* Assets.xcassets */,
 				C33ECED21E836078002A00F7 /* LaunchScreen.storyboard */,
@@ -151,7 +171,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C35CA5801E88EE4500F26652 /* NSDictionary+ErrorCodeAndErrorText.m in Sources */,
+				C35CA5861E88FB4300F26652 /* UIViewController+FlyElephant.m in Sources */,
+				C35CA5831E88F62800F26652 /* UIView+BlackView.m in Sources */,
 				C33ECECC1E836078002A00F7 /* ViewController.m in Sources */,
+				185172301E8953DE00C08E2B /* NSArray+JDNil.m in Sources */,
 				C33ECEC91E836078002A00F7 /* AppDelegate.m in Sources */,
 				C33ECEC61E836078002A00F7 /* main.m in Sources */,
 			);
@@ -273,6 +297,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F5XBCM7QUZ;
 				INFOPLIST_FILE = LFY_TestDictNil/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dareway.LFY-TestDictNil";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F5XBCM7QUZ;
 				INFOPLIST_FILE = LFY_TestDictNil/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dareway.LFY-TestDictNil";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -310,6 +336,7 @@
 				C33ECEDA1E836078002A00F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
